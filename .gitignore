@@ -1,0 +1,33 @@
+# Environment / secrets
+.env
+.env.local
+.env.production
+
+# Uploaded files (don't commit user uploads)
+assets/event_images/*.jpg
+assets/event_images/*.jpeg
+assets/event_images/*.png
+assets/event_images/*.webp
+assets/event_images/*.gif
+
+# API cache
+api/cache/*.json
+
+# Database backups (may contain sensitive data)
+admin/backups/*.json
+admin/backups/*.sql
+admin/backups/*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/settings.json
+*.swp
+*.swo
+
+# Logs
+*.log
+error_log
